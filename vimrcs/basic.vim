@@ -119,6 +119,11 @@ set novisualbell
 set t_vb=
 set tm=500
 
+" Line number
+set nu
+set relativenumber
+set colorcolumn=70
+
 " Properly disable sound on errors on MacVim
 if has("gui_macvim")
     autocmd GUIEnter * set vb t_vb=
